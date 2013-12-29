@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+}
+h1{
+	box-shadow: 2px 2px 5px #999;
+	margin: 0px;
+	width: 100%;
+	background-color: black;
+	color:#FF4E00;
+	text-align: center;
+	padding: 10px;
+}
+#numero{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	height: 35px;
+	font-size: 2rem;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+}
+#mas{
+	border-radius: 8px;
+	height: 50px;
+	font-size: 2rem;
+	width: 100%;
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin-bottom: 8px;
+}
+#menos, #reset{
+	border-radius: 8px;
+	height: 35px;
+	font-size: 1.2rem;
+	text-align: center;
+	color:white;
+	width: 50%;
+	background-color: black;
+	float: right;
+	padding-top:2px;
+}
+#menos:hover, #reset:hover, #mas:hover{
+	animation:boton 0.5s forwards;
+}
+body{
+	width: 100%;
+	background-color:#FF4E00;
+}
+@keyframes boton {
+  0%   { color:white;
+background-color: black; }
+  50% { background-color: white;
+color: black; }
+  100%   { color:white;
+background-color: black;  }
+}
