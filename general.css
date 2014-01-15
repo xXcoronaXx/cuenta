@@ -1,14 +1,33 @@
+html{
+	width: 100%;
+}
 *{
 	margin: 0px;
 }
 h1{
-	box-shadow: 2px 2px 5px #999;
+	box-shadow: 2px 2px 0px #999;
 	margin: 0px;
 	width: 100%;
 	background-color: black;
 	color:#FF4E00;
 	text-align: center;
-	padding: 10px;
+}
+p{
+
+	width: 100%;
+	text-align: center;
+}
+.fecha{
+	margin-left: 15%;
+	margin-right: 18%;
+	display: inline;
+}
+#historial{
+	background-color: #FF9735;
+	width: 100%;
+	min-height: 30px;
+	float: right;
+	color: white;
 }
 #numero{
 	padding-top: 8px;
@@ -24,6 +43,18 @@ h1{
 }
 #mas{
 	border-radius: 8px;
+	height: 60px;
+	font-size: 2.3rem;
+	width: 100%;
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin-bottom: 8px;
+}
+#clear{
+	margin-top: 3px;
+	float: right;
+	border-radius: 8px;
 	height: 50px;
 	font-size: 2rem;
 	width: 100%;
@@ -33,6 +64,7 @@ h1{
 	margin-bottom: 8px;
 }
 #menos, #reset{
+	margin-bottom: 3px;
 	border-radius: 8px;
 	height: 35px;
 	font-size: 1.2rem;
@@ -43,7 +75,7 @@ h1{
 	float: right;
 	padding-top:2px;
 }
-#menos:hover, #reset:hover, #mas:hover{
+#menos:hover, #reset:hover, #mas:hover, #clear:hover{
 	animation:boton 0.5s forwards;
 }
 body{

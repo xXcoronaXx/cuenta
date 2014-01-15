@@ -1,6 +1,6 @@
 {
   "name" : "Cuenta",
-	"description": "Con Cuenta puedes contar lo que quieras, es una forma facil y rapida de llevar la cuenta de lo que necesites.",
+	"description": "Con Cuenta puedes contar lo que quieras es una forma facil y rapida de llevar la cuenta de lo que necesites.",
 	"launch_path": "/index.html",
 	"icons": {
   "256": "/icon256.png",
@@ -10,7 +10,7 @@
   "60": "/icon60.png",
   "32": "/icon32.png"
   },
-  "version": "0.1",
+  "version": "0.2",
   "developer": {
     "name": "Antonio Acevedo"
   },
