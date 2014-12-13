@@ -59,11 +59,13 @@ function resta(){
 
 function resetea(){
 	$("#numero").html(0);
+	$("#historial").slideDown("slow");
 	$("#historial").prepend('<div><p class="fecha">'+fecha()+'</p>  <b>'+numero+'</b></div>');
 	return 0;
 }
 function clear(){
 	$("#numero").html(0);
+	$("#historial").slideUp("slow");
 	$("#historial").html("");
 }
 function fecha(){//problema con la segunda ejecucion de fecha
